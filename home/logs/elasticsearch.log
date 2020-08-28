@@ -126,3 +126,37 @@ org.elasticsearch.indices.InvalidTypeNameException: mapping type name [_doc] can
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
 [2020-08-28T11:13:07,260][INFO ][o.e.n.Node               ] [F9Lsxlk] stopping ...
+[2020-08-28T11:13:17,325][INFO ][o.e.n.Node               ] [] initializing ...
+[2020-08-28T11:13:17,589][INFO ][o.e.e.NodeEnvironment    ] [F9Lsxlk] using [1] data paths, mounts [[(F:)]], net usable_space [651.4gb], net total_space [731.4gb], types [NTFS]
+[2020-08-28T11:13:17,589][INFO ][o.e.e.NodeEnvironment    ] [F9Lsxlk] heap size [3.5gb], compressed ordinary object pointers [true]
+[2020-08-28T11:13:17,636][INFO ][o.e.n.Node               ] node name [F9Lsxlk] derived from node ID [F9LsxlkbSNOcm-cLlIUmmA]; set [node.name] to override
+[2020-08-28T11:13:17,636][INFO ][o.e.n.Node               ] version[6.1.2-SNAPSHOT], pid[16780], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_202/25.202-b08]
+[2020-08-28T11:13:17,636][INFO ][o.e.n.Node               ] JVM arguments [-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:1491,suspend=y,server=n, -Des.path.conf=F:\github\project\elasticsearch-6.1.2source\elasticsearch-6.1.2\home\config, -Des.path.home=F:\github\project\elasticsearch-6.1.2source\elasticsearch-6.1.2\home, -Djava.security.policy=F:\github\project\elasticsearch-6.1.2source\elasticsearch-6.1.2\home\config\java.policy, -Dlog4j2.disable.jmx=true, -javaagent:C:\Users\ijavac\.IntelliJIdea2019.1\system\groovyHotSwap\gragent.jar, -javaagent:C:\Users\ijavac\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar, -Dfile.encoding=UTF-8]
+[2020-08-28T11:13:17,636][WARN ][o.e.n.Node               ] version [6.1.2-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2020-08-28T11:13:36,854][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [aggs-matrix-stats]
+[2020-08-28T11:13:36,854][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [analysis-common]
+[2020-08-28T11:13:36,854][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [ingest-common]
+[2020-08-28T11:13:36,854][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [lang-expression]
+[2020-08-28T11:13:36,855][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [lang-mustache]
+[2020-08-28T11:13:36,855][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [lang-painless]
+[2020-08-28T11:13:36,855][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [mapper-extras]
+[2020-08-28T11:13:36,855][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [parent-join]
+[2020-08-28T11:13:36,855][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [percolator]
+[2020-08-28T11:13:36,855][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [reindex]
+[2020-08-28T11:13:36,855][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [repository-url]
+[2020-08-28T11:13:36,855][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [transport-netty4]
+[2020-08-28T11:13:36,855][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [tribe]
+[2020-08-28T11:13:36,856][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] no plugins loaded
+[2020-08-28T11:13:37,208][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2020-08-28T11:13:41,170][INFO ][o.e.d.DiscoveryModule    ] [F9Lsxlk] using discovery type [zen]
+[2020-08-28T11:13:44,015][INFO ][o.e.n.Node               ] initialized
+[2020-08-28T11:13:44,015][INFO ][o.e.n.Node               ] [F9Lsxlk] starting ...
+[2020-08-28T11:13:49,214][INFO ][o.e.t.TransportService   ] [F9Lsxlk] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-08-28T11:13:49,236][WARN ][o.e.b.BootstrapChecks    ] [F9Lsxlk] initial heap size [266338304] not equal to maximum heap size [4253024256]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2020-08-28T11:13:52,321][INFO ][o.e.c.s.MasterService    ] [F9Lsxlk] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {F9Lsxlk}{F9LsxlkbSNOcm-cLlIUmmA}{Yb_77iglT3qYbUq4xzTjSg}{127.0.0.1}{127.0.0.1:9300}
+[2020-08-28T11:13:52,333][INFO ][o.e.c.s.ClusterApplierService] [F9Lsxlk] new_master {F9Lsxlk}{F9LsxlkbSNOcm-cLlIUmmA}{Yb_77iglT3qYbUq4xzTjSg}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {F9Lsxlk}{F9LsxlkbSNOcm-cLlIUmmA}{Yb_77iglT3qYbUq4xzTjSg}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2020-08-28T11:13:52,763][INFO ][o.e.g.GatewayService     ] [F9Lsxlk] recovered [1] indices into cluster_state
+[2020-08-28T11:13:53,596][INFO ][o.e.c.r.a.AllocationService] [F9Lsxlk] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[person][2], [person][0], [person][1]] ...]).
+[2020-08-28T11:13:56,595][INFO ][o.e.h.n.Netty4HttpServerTransport] [F9Lsxlk] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2020-08-28T11:13:56,595][INFO ][o.e.n.Node               ] [F9Lsxlk] started
+[2020-08-28T11:14:47,704][INFO ][o.e.c.m.MetaDataMappingService] [F9Lsxlk] [person/48_7w3_YSvisH-ewrNf1YA] create_mapping [_doc]
