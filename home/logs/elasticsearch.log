@@ -1,0 +1,128 @@
+[2020-08-28T02:32:46,806][INFO ][o.e.m.j.JvmGcMonitorService] [F9Lsxlk] [gc][35015] overhead, spent [286ms] collecting in the last [1.1s]
+[2020-08-28T09:49:22,943][INFO ][o.e.n.Node               ] [F9Lsxlk] stopping ...
+[2020-08-28T09:49:23,004][INFO ][o.e.n.Node               ] [F9Lsxlk] stopped
+[2020-08-28T09:49:23,005][INFO ][o.e.n.Node               ] [F9Lsxlk] closing ...
+[2020-08-28T09:49:23,128][INFO ][o.e.n.Node               ] [F9Lsxlk] closed
+[2020-08-28T09:49:54,661][INFO ][o.e.n.Node               ] [] initializing ...
+[2020-08-28T09:49:54,938][INFO ][o.e.e.NodeEnvironment    ] [F9Lsxlk] using [1] data paths, mounts [[(F:)]], net usable_space [651.4gb], net total_space [731.4gb], types [NTFS]
+[2020-08-28T09:49:54,940][INFO ][o.e.e.NodeEnvironment    ] [F9Lsxlk] heap size [3.5gb], compressed ordinary object pointers [true]
+[2020-08-28T09:49:54,941][INFO ][o.e.n.Node               ] node name [F9Lsxlk] derived from node ID [F9LsxlkbSNOcm-cLlIUmmA]; set [node.name] to override
+[2020-08-28T09:49:54,942][INFO ][o.e.n.Node               ] version[6.1.2-SNAPSHOT], pid[17460], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_202/25.202-b08]
+[2020-08-28T09:49:54,942][INFO ][o.e.n.Node               ] JVM arguments [-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:8449,suspend=y,server=n, -Des.path.conf=F:\github\project\elasticsearch-6.1.2source\elasticsearch-6.1.2\home\config, -Des.path.home=F:\github\project\elasticsearch-6.1.2source\elasticsearch-6.1.2\home, -Djava.security.policy=F:\github\project\elasticsearch-6.1.2source\elasticsearch-6.1.2\home\config\java.policy, -Dlog4j2.disable.jmx=true, -javaagent:C:\Users\ijavac\.IntelliJIdea2019.1\system\groovyHotSwap\gragent.jar, -javaagent:C:\Users\ijavac\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar, -Dfile.encoding=UTF-8]
+[2020-08-28T09:49:54,942][WARN ][o.e.n.Node               ] version [6.1.2-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2020-08-28T09:50:14,368][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [aggs-matrix-stats]
+[2020-08-28T09:50:14,368][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [analysis-common]
+[2020-08-28T09:50:14,368][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [ingest-common]
+[2020-08-28T09:50:14,369][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [lang-expression]
+[2020-08-28T09:50:14,369][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [lang-mustache]
+[2020-08-28T09:50:14,369][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [lang-painless]
+[2020-08-28T09:50:14,369][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [mapper-extras]
+[2020-08-28T09:50:14,369][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [parent-join]
+[2020-08-28T09:50:14,369][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [percolator]
+[2020-08-28T09:50:14,369][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [reindex]
+[2020-08-28T09:50:14,369][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [repository-url]
+[2020-08-28T09:50:14,369][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [transport-netty4]
+[2020-08-28T09:50:14,369][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [tribe]
+[2020-08-28T09:50:14,369][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] no plugins loaded
+[2020-08-28T09:50:14,737][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2020-08-28T09:50:18,872][INFO ][o.e.d.DiscoveryModule    ] [F9Lsxlk] using discovery type [zen]
+[2020-08-28T09:50:22,342][INFO ][o.e.n.Node               ] initialized
+[2020-08-28T09:50:22,342][INFO ][o.e.n.Node               ] [F9Lsxlk] starting ...
+[2020-08-28T09:50:27,703][INFO ][o.e.t.TransportService   ] [F9Lsxlk] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-08-28T09:50:27,725][WARN ][o.e.b.BootstrapChecks    ] [F9Lsxlk] initial heap size [266338304] not equal to maximum heap size [4253024256]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2020-08-28T09:50:30,798][INFO ][o.e.c.s.MasterService    ] [F9Lsxlk] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {F9Lsxlk}{F9LsxlkbSNOcm-cLlIUmmA}{A5ATPab6RBO9X9_uXV8F_A}{127.0.0.1}{127.0.0.1:9300}
+[2020-08-28T09:50:30,805][INFO ][o.e.c.s.ClusterApplierService] [F9Lsxlk] new_master {F9Lsxlk}{F9LsxlkbSNOcm-cLlIUmmA}{A5ATPab6RBO9X9_uXV8F_A}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {F9Lsxlk}{F9LsxlkbSNOcm-cLlIUmmA}{A5ATPab6RBO9X9_uXV8F_A}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2020-08-28T09:50:31,213][INFO ][o.e.g.GatewayService     ] [F9Lsxlk] recovered [0] indices into cluster_state
+[2020-08-28T09:50:33,718][INFO ][o.e.h.n.Netty4HttpServerTransport] [F9Lsxlk] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2020-08-28T09:50:33,718][INFO ][o.e.n.Node               ] [F9Lsxlk] started
+[2020-08-28T11:02:00,163][INFO ][o.e.c.m.MetaDataCreateIndexService] [F9Lsxlk] [person] creating index, cause [api], templates [], shards [3]/[0], mappings []
+[2020-08-28T11:02:02,633][INFO ][o.e.c.r.a.AllocationService] [F9Lsxlk] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[person][1]] ...]).
+[2020-08-28T11:02:34,882][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [F9Lsxlk] failed to put mappings on indices [[[person/48_7w3_YSvisH-ewrNf1YA]]], type [_doc]
+org.elasticsearch.indices.InvalidTypeNameException: Document mapping type name can't start with '_', found: [_doc]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:297) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:640) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:270) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:195) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:130) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:568) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:247) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:210) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+[2020-08-28T11:07:05,916][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [F9Lsxlk] failed to put mappings on indices [[[person/48_7w3_YSvisH-ewrNf1YA]]], type [_doc]
+org.elasticsearch.indices.InvalidTypeNameException: Document mapping type name can't start with '_', found: [_doc]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:297) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:640) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:270) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:195) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:130) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:568) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:247) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:210) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+[2020-08-28T11:11:21,234][INFO ][o.e.n.Node               ] [F9Lsxlk] stopping ...
+[2020-08-28T11:11:21,407][INFO ][o.e.n.Node               ] [F9Lsxlk] stopped
+[2020-08-28T11:11:21,407][INFO ][o.e.n.Node               ] [F9Lsxlk] closing ...
+[2020-08-28T11:11:21,456][INFO ][o.e.n.Node               ] [F9Lsxlk] closed
+[2020-08-28T11:11:33,470][INFO ][o.e.n.Node               ] [] initializing ...
+[2020-08-28T11:11:33,835][INFO ][o.e.e.NodeEnvironment    ] [F9Lsxlk] using [1] data paths, mounts [[(F:)]], net usable_space [651.4gb], net total_space [731.4gb], types [NTFS]
+[2020-08-28T11:11:33,836][INFO ][o.e.e.NodeEnvironment    ] [F9Lsxlk] heap size [3.5gb], compressed ordinary object pointers [true]
+[2020-08-28T11:11:33,892][INFO ][o.e.n.Node               ] node name [F9Lsxlk] derived from node ID [F9LsxlkbSNOcm-cLlIUmmA]; set [node.name] to override
+[2020-08-28T11:11:33,892][INFO ][o.e.n.Node               ] version[6.1.2-SNAPSHOT], pid[18720], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_202/25.202-b08]
+[2020-08-28T11:11:33,892][INFO ][o.e.n.Node               ] JVM arguments [-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:14773,suspend=y,server=n, -Des.path.conf=F:\github\project\elasticsearch-6.1.2source\elasticsearch-6.1.2\home\config, -Des.path.home=F:\github\project\elasticsearch-6.1.2source\elasticsearch-6.1.2\home, -Djava.security.policy=F:\github\project\elasticsearch-6.1.2source\elasticsearch-6.1.2\home\config\java.policy, -Dlog4j2.disable.jmx=true, -javaagent:C:\Users\ijavac\.IntelliJIdea2019.1\system\groovyHotSwap\gragent.jar, -javaagent:C:\Users\ijavac\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar, -Dfile.encoding=UTF-8]
+[2020-08-28T11:11:33,892][WARN ][o.e.n.Node               ] version [6.1.2-SNAPSHOT] is a pre-release version of Elasticsearch and is not suitable for production
+[2020-08-28T11:11:52,512][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [aggs-matrix-stats]
+[2020-08-28T11:11:52,512][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [analysis-common]
+[2020-08-28T11:11:52,512][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [ingest-common]
+[2020-08-28T11:11:52,512][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [lang-expression]
+[2020-08-28T11:11:52,512][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [lang-mustache]
+[2020-08-28T11:11:52,512][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [lang-painless]
+[2020-08-28T11:11:52,513][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [mapper-extras]
+[2020-08-28T11:11:52,513][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [parent-join]
+[2020-08-28T11:11:52,513][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [percolator]
+[2020-08-28T11:11:52,513][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [reindex]
+[2020-08-28T11:11:52,513][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [repository-url]
+[2020-08-28T11:11:52,513][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [transport-netty4]
+[2020-08-28T11:11:52,513][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] loaded module [tribe]
+[2020-08-28T11:11:52,513][INFO ][o.e.p.PluginsService     ] [F9Lsxlk] no plugins loaded
+[2020-08-28T11:11:53,797][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2020-08-28T11:12:09,394][INFO ][o.e.d.DiscoveryModule    ] [F9Lsxlk] using discovery type [zen]
+[2020-08-28T11:12:17,435][INFO ][o.e.n.Node               ] initialized
+[2020-08-28T11:12:17,435][INFO ][o.e.n.Node               ] [F9Lsxlk] starting ...
+[2020-08-28T11:12:23,205][INFO ][o.e.t.TransportService   ] [F9Lsxlk] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-08-28T11:12:23,279][WARN ][o.e.b.BootstrapChecks    ] [F9Lsxlk] initial heap size [266338304] not equal to maximum heap size [4253024256]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2020-08-28T11:12:26,607][INFO ][o.e.c.s.MasterService    ] [F9Lsxlk] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {F9Lsxlk}{F9LsxlkbSNOcm-cLlIUmmA}{G7kYRK8dQQuOVjLC6o65ig}{127.0.0.1}{127.0.0.1:9300}
+[2020-08-28T11:12:26,618][INFO ][o.e.c.s.ClusterApplierService] [F9Lsxlk] new_master {F9Lsxlk}{F9LsxlkbSNOcm-cLlIUmmA}{G7kYRK8dQQuOVjLC6o65ig}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {F9Lsxlk}{F9LsxlkbSNOcm-cLlIUmmA}{G7kYRK8dQQuOVjLC6o65ig}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2020-08-28T11:12:27,044][INFO ][o.e.g.GatewayService     ] [F9Lsxlk] recovered [1] indices into cluster_state
+[2020-08-28T11:12:27,579][INFO ][o.e.c.r.a.AllocationService] [F9Lsxlk] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[person][0], [person][1], [person][2]] ...]).
+[2020-08-28T11:12:30,737][INFO ][o.e.h.n.Netty4HttpServerTransport] [F9Lsxlk] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2020-08-28T11:12:30,737][INFO ][o.e.n.Node               ] [F9Lsxlk] started
+[2020-08-28T11:12:34,043][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [F9Lsxlk] failed to put mappings on indices [[[person/48_7w3_YSvisH-ewrNf1YA]]], type [_doc]
+org.elasticsearch.indices.InvalidTypeNameException: mapping type name [_doc] can't start with '_'
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:384) ~[main/:?]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:350) ~[main/:?]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:282) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:311) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:640) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:270) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:195) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:130) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:568) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:247) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:210) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_202]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_202]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_202]
+[2020-08-28T11:13:07,260][INFO ][o.e.n.Node               ] [F9Lsxlk] stopping ...
