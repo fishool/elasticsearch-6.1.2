@@ -5,7 +5,7 @@
 *.ipr
 *.iws
 build-idea/
-
+home/*
 # eclipse files
 .project
 .classpath
@@ -43,4 +43,5 @@ html_docs
 # random old stuff that we should look at the necessity of...
 /tmp/
 eclipse-build
+home/
 
